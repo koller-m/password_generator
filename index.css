@@ -78,5 +78,18 @@ html, body, p {
     border-radius: 6px;
     width: 200px;
     padding: 10px 15px 10px 15px;
-    margin-bottom: 20px;
+    margin-bottom: .75em;
+}
+
+.copy-btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: .8em;
+    border: none;
+    border-radius: 6px;
+    background-color: #10B981;
+    color: #FFFFFF;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: .75em;
 }
