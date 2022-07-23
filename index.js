@@ -50,3 +50,52 @@ function genPassword() {
     genThirdPassword()
     genFourthPassword()
 }
+
+// Add copy to clipboard functionality
+
+const copyOne = document.getElementById("copy-btn-1")
+const copyTwo = document.getElementById("copy-btn-2")
+const copyThree = document.getElementById("copy-btn-3")
+const copyFour = document.getElementById("copy-btn-4")
+
+// Listen for clicks
+
+copyOne.addEventListener("click", function() {
+    navigator.clipboard.writeText(firstPassword.textContent)
+    .then(() => {
+        alert("Copied")
+    })
+    .catch(() => {
+        alert("Error")
+    })
+})
+
+copyTwo.addEventListener("click", function() {
+    navigator.clipboard.writeText(secondPassword.textContent)
+    .then(() => {
+        alert("Copied")
+    })
+    .catch(() => {
+        alert("Error")
+    })
+})
+
+copyThree.addEventListener("click", function() {
+    navigator.clipboard.writeText(thirdPassword.textContent)
+    .then(() => {
+        alert("Copied")
+    })
+    .catch(() => {
+        alert("Error")
+    })
+})
+
+copyFour.addEventListener("click", function() {
+    navigator.clipboard.writeText(fourthPassword.textContent)
+    .then(() => {
+        alert("Copied")
+    })
+    .catch(() => {
+        alert("Error")
+    })
+})
