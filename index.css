@@ -93,3 +93,11 @@ html, body, p {
     padding: 5px 10px 5px 10px;
     margin-bottom: .75em;
 }
+
+.copy-btn:hover,
+.copy-btn:focus,
+#btn-style:hover,
+#btn-style:focus {
+    background-color: #FFFFFF;
+    color: #10B981;
+}
