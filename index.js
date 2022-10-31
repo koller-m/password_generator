@@ -24,7 +24,7 @@ function shuffleArray() {
         charArray[i] = charArray[j]
         charArray[j] = k
     }
-    charArray = charArray.slice(0, 14)
+    charArray = charArray.slice(0, 15)
     return charArray
 }
 
